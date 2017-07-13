@@ -2,6 +2,7 @@
   "name": "bgxx-react",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://phelm.co.uk/bg-react",
   "dependencies": {
     "gh-pages": "^1.0.0",
     "react": "^15.6.1",

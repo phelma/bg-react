@@ -8,13 +8,16 @@ class Point extends Component {
 
   render() {
     let className = `point`;
-    if (this.props.color){
+    if (this.props.color) {
       className += ` point-${this.props.color}`;
+    }
+    if (this.props.bar) {
+      className += ' bar';
     }
 
     let pieces = [];
-    for (let i = 0; i < this.props.point.n; i ++) {
-      pieces.push(<Piece key={i} player={this.props.point.p} />)
+    for (let i = 0; i < this.props.point.n; i++) {
+      pieces.push(<Piece key={i} player={this.props.point.p} />);
     }
 
     return (

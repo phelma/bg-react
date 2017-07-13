@@ -18,8 +18,8 @@ class Move extends Component {
         onSubmit={e => this.makeMove(e)}
       >
         <select ref={input => (this.player = input)} type="text">
-          <option value="A">A</option>
-          <option value="B">B</option>
+          <option value="A">Black</option>
+          <option value="B">Red</option>
         </select>
         <input
           type="number"
