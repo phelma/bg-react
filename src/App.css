@@ -1,0 +1,70 @@
+body {
+  background-color: #eee;
+}
+
+.App {
+  padding: 1em;
+}
+
+.board {
+  border: 1px solid black;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.board-row {
+  display: flex;
+  border: 1px solid rgba(0,0,0,0.2);
+  margin: 2px;
+  padding: 2px;
+}
+
+.board-row-bottom {
+  flex-direction: row-reverse;
+}
+
+.bar {
+  width: 2em;
+  background-color: brown;
+}
+
+.set {
+  display: flex;
+}
+
+.set-bottom {
+  flex-direction: row-reverse;
+}
+
+.point {
+  height: 9em;
+  padding: 2px;
+  border: 1px solid rgba(0,0,0,0.2);
+  margin: 2px;
+  padding: 1px;
+  min-width: 1.5em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.set-bottom .point {
+  flex-direction: column-reverse;
+}
+
+.piece {
+  border-radius: 9999px;
+  background-color: black;
+  flex-shrink: 1;
+  height:1.5em;
+  width: 1.5em;
+}
+
+.piece.piece-red {
+  background-color: red;
+}
+
+.point-black {
+  background-color: black;
+  color: white;
+}

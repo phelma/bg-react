@@ -1,0 +1,21 @@
+{
+  "name": "bgxx-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "gh-pages": "^1.0.0",
+    "react": "^15.6.1",
+    "react-dnd": "^2.4.0",
+    "react-dnd-html5-backend": "^2.4.1",
+    "react-dom": "^15.6.1",
+    "react-scripts": "1.0.10"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
